@@ -143,6 +143,9 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+### 0.1.3
+* Fix repository url
+
 ### 0.1.2
 * Reduce Grunt depencdency version to 0.4.1
 
