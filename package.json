@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.cocom/ro-ka/grunt-firefox-manifest.git"
+    "url": "git://github.com/ro-ka/grunt-firefox-manifest.git"
   },
   "bugs": {
     "url": "https://github.com/ro-ka/grunt-firefox-manifest/issues/"
