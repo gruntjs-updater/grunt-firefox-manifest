@@ -35,6 +35,47 @@ grunt.initConfig({
 });
 ```
 
+### Options
+
+#### options.packageJson
+Type: `String`
+Default value: `'package.json '`
+
+The location of the package.json to use as the data source.
+
+#### options.manifest
+Type: `String`
+Default value: `'manifest.webapp'`
+
+The location where to write the Firefox manifest to.
+
+### Usage Examples
+
+#### Default Options
+Using the default options generates a `manifest.webapp` file next to your `package.json`.
+
+```js
+grunt.initConfig({
+  firefoxManifest: {
+    options: {}
+  },
+});
+```
+
+#### Custom Options
+If one of the files is located in a different location, pass the path to it as a param:
+
+```js
+grunt.initConfig({
+  firefoxManifest: {
+    options: {
+      packageJson: 'app/package.json',
+      manifest: ' dist/manifest.webapp',
+    }
+  },
+});
+```
+
 ## The package.json section
 
 Add a section `firefoxManifest` to your `package.json` where you provide the needed information for the manifest. If you don't provide *name*, *description*, *version* or *developer* in the `firefoxManifest` section, then the fields of the `package.json` will be used instead (*developer* falls back to *author*).
@@ -95,47 +136,6 @@ This will generate the following `manifest.webapp`:
     "url": "http://example.com/"
   }
 }
-```
-
-### Options
-
-#### options.packageJson
-Type: `String`
-Default value: `'package.json '`
-
-The location of the package.json to use as the data source.
-
-#### options.manifest
-Type: `String`
-Default value: `'manifest.webapp'`
-
-The location where to write the Firefox manifest to.
-
-### Usage Examples
-
-#### Default Options
-Using the default options generates a `manifest.webapp` file next to your `package.json`.
-
-```js
-grunt.initConfig({
-  firefoxManifest: {
-    options: {}
-  },
-});
-```
-
-#### Custom Options
-If one of the files is located in a different location, pass the path to it as a param:
-
-```js
-grunt.initConfig({
-  firefoxManifest: {
-    options: {
-      packageJson: 'app/package.json',
-      manifest: ' dist/manifest.webapp',
-    }
-  },
-});
 ```
 
 ## Contributing
