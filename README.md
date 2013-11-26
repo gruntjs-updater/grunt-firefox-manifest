@@ -63,6 +63,9 @@ Assume we have a package.json like the following:
         "description": "Required to locate you."
       }
     },
+    "icons": {
+      "128": "/img/icon-128.png"
+    },
     "appcache_path": "/manifest.appcache",
     "launch_path": "/"
   }
@@ -80,6 +83,9 @@ This will generate the following `manifest.webapp`:
     "geolocation": {
       "description": "Required to locate you."
     }
+  },
+  "icons": {
+    "128": "/img/icon-128.png"
   },
   "appcache_path": "/manifest.appcache",
   "launch_path": "/",

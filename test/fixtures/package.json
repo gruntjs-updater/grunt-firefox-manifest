@@ -23,6 +23,9 @@
         "description": "Required to locate you."
       }
     },
+    "icons": {
+      "128": "/img/icon-128.png"
+    },
     "appcache_path": "/manifest.appcache",
     "launch_path": "/",
     "developer": {
