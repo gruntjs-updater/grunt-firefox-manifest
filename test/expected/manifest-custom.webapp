@@ -1,0 +1,16 @@
+{
+  "name": "My Firefox App",
+  "description": "My Firefox App description",
+  "version": "0.5.0",
+  "permissions": {
+    "geolocation": {
+      "description": "Required to locate you."
+    }
+  },
+  "appcache_path": "/manifest.appcache",
+  "launch_path": "/",
+  "developer": {
+    "name": "The other developer",
+    "url": "http://other.example.com/"
+  }
+}

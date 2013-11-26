@@ -1,0 +1,47 @@
+{
+  "name": "grunt-firefox-manifest",
+  "description": "Create a Firefox manifest from your projects package.json.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ro-ka/grunt-firefox-manifest/",
+  "author": {
+    "name": "Robert Katzki",
+    "email": "robert@katzki.de",
+    "url": "http://katzki.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.cocom/ro-ka/grunt-firefox-manifest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ro-ka/grunt-firefox-manifest/issues/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ro-ka/grunt-firefox-manifest/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "firefox",
+    "firefoxos",
+    "firefox os",
+    "manifest"
+  ]
+}

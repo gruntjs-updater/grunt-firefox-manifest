@@ -1,0 +1,10 @@
+{
+  "name": "grunt-firefox-manifest",
+  "description": "Create a Firefox manifest from your projects package.json.",
+  "version": "0.1.0",
+  "developer": {
+    "name": "Robert Katzki",
+    "email":"robert@katzki.de",
+    "url": "http://katzki.de"
+  }
+}

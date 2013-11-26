@@ -1,0 +1,33 @@
+{
+  "name": "My App",
+  "description": "My App description",
+  "version": "0.4.0",
+  "homepage": "http://code.example.com/",
+  "author": {
+    "name": "The developer",
+    "email": "email@example.com",
+    "url": "http://example.com/"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "firefoxManifest": {
+    "name": "My Firefox App",
+    "description": "My Firefox App description",
+    "version": "0.5.0",
+    "permissions": {
+      "geolocation": {
+        "description": "Required to locate you."
+      }
+    },
+    "appcache_path": "/manifest.appcache",
+    "launch_path": "/",
+    "developer": {
+      "name": "The other developer",
+      "url": "http://other.example.com/"
+    }
+  }
+}
