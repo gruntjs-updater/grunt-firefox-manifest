@@ -2,6 +2,8 @@
 
 > Create a Firefox manifest from your projects package.json.
 
+[![Build Status](https://travis-ci.org/ro-ka/grunt-firefox-manifest.png?branch=master)](https://travis-ci.org/ro-ka/grunt-firefox-manifest)
+
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
 
