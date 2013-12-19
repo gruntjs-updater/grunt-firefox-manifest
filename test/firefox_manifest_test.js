@@ -58,5 +58,5 @@ exports.firefoxManifest = {
     );
 
     test.done();
-  },
+  }
 };
